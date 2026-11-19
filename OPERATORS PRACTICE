@@ -1,0 +1,119 @@
+#ARITHMETIC OPERATORS
+a = 23
+b = 27
+
+print(a + b)   # Addition
+print(a - b)   # Subtraction
+print(a * b)   # Multiplication
+print(a / b)   # Division
+print(a // b)  # Floor Division
+print(a % b)   # Modulus
+print(a ** b)  # Exponent
+50
+-4
+621
+0.8518518518518519
+0
+23
+5843211045545439551605946764725979847
+
+
+#ASSIGNMENT OPERATORS
+a = 28
+a += 5
+print(a)
+a -= 2
+print(a)
+a *= 2
+print(a)
+a /= 2
+print(a)
+a //= 2
+print(a)
+a %= 3
+print(a)
+a **= 2
+print(a)
+33
+31
+62
+31.0
+15.0
+0.0
+0.0
+
+
+
+#COMPARISON OPERATORS
+a = 1000
+b = 2020
+
+print(a == b)  # Equal
+print(a != b)  # Not Equal
+print(a > b)   # Greater than
+print(a < b)   # Less than
+print(a >= b)  # Greater than or equal
+print(a <= b)  # Less than or equal
+False
+True
+False
+True
+False
+True
+
+
+#LOGICAL OPERATORS
+a = 100
+b = 200
+
+print(a > 50 and b > 150)
+print(a > 150 or b > 150)
+print(not(a > 50))
+True
+True
+False
+a = 7
+b = 9
+
+print(a & b)   # AND
+print(a | b)   # OR
+print(a ^ b)   # XOR
+print(~a)      # NOT
+print(a << 1)  # Left Shift
+print(a >> 1)  # Right Shift
+1
+15
+14
+-8
+14
+3
+
+
+#IDENTITY OPERATORS
+a = [107, 207, 307, 407]
+
+print(207 in a)
+print(507 in a)
+
+print(207 not in a)
+print(507 not in a)
+True
+False
+False
+True
+
+
+#MEMBERSHIP OPERATORS
+a = [70, 80, 90]
+b = a
+c = [70, 80, 90]
+
+print(a is b)
+print(a is c)
+
+print(a is not b)
+print(a is not c)
+True
+False
+False
+True
